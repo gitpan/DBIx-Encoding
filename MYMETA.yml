@@ -5,9 +5,9 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.42
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.01'
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112621'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,11 +15,8 @@ meta-spec:
 name: DBIx-Encoding
 no_index:
   directory:
-    - inc
     - t
-    - xt
+    - inc
 requires:
   Filter::Util::Call: 0
-resources:
-  license: http://dev.perl.org/licenses/
 version: 0.06

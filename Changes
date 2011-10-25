@@ -1,5 +1,8 @@
 Revision history for Perl extension DBIx::Encoding
 
+0.06    Mon Oct 25 16:50:15 2011
+        - override dbh->do method
+
 0.05    Mon Dec 08 16:45:30 2009
         - bug fix
 
